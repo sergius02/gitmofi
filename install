@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-sudo cp gitmofi /usr/bin/
+sudo wget https://raw.githubusercontent.com/sergius02/gitmofi/main/gitmofi -P /usr/bin
+sudo chmod +x /usr/bin/gitmofi
